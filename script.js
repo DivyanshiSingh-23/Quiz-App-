@@ -264,7 +264,12 @@ const pythonQuestions = [
   { question: "What will `print(type('Hello'))` output?", options: ["class 'string'", "class 'str'", "type 'string'", "type 'str'"], answer: "class 'str'" },
   { question: "Which method is used to add an item to the end of a list?", options: [".add()", ".push()", ".insert()", ".append()"], answer: ".append()" },
   { question: "How do you access the value associated with the key 'name' in a dictionary `d`?", options: ["d.name", "d('name')", "d.get('name')", "d['name']"], answer: "d['name']" },
-  { question: "Which statement is used to stop a loop?", options: ["stop", "exit", "break", "return"], answer: "break" }
+  { question: "Which statement is used to stop a loop?", options: ["stop", "exit", "break", "return"], answer: "break" },
+  { question: "What is the output of `print(2 + 3 * 4)`?", options: ["14", "20", "12", "10"], answer: "14" },
+  { question: "which of these types is mutable in python?", options: ["list", "tuple", "set", "dictionary"], answer: "list" },
+  { question: "which method adds an element to the end of a list?", options: [".add()", ".push()", ".insert()", ".append()"], answer: ".append()" },
+  { question: "which method removes an element from a list?", options: [".remove()", ".delete()", ".pop()", ".discard()"], answer: ".remove()" },
+  { question: "which function is used to convert a string to lowercase in Python?", options: ["lower()", "toLower()", "str.lower()", "string.lower()"], answer: "lower()" },
 ];
 
 // SQL Questions
