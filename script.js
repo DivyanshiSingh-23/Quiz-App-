@@ -207,6 +207,26 @@ const cppQuestions = [
     question: "What does 'this' pointer point to?",
     options: ["Global object", "Current object", "Next object", "Previous object"],
     answer: "Current object"
+  },
+  {
+    question: "Which of the following is a feature of Object-Oriented Programming?",
+    options: ["Encapsulation", "Compilation", "Interpretation", "Execution"],
+    answer: "Encapsulation"
+  },
+  {
+    question: "Which of the following correctly declares a pure virtual function in C++?",
+    options: ["void func() = 0;", "virtual void func();", "void func() override;", "virtual void func() = 0;"],
+    answer: "virtual void func() = 0;"
+  },
+  {
+    question: "In C++, which type cast is safest for converting base class pointers to derived class pointers?",
+    options: ["static_cast", "dynamic_cast", "reinterpret_cast", "const_cast"],
+    answer: "dynamic_cast"
+  },
+  {
+    question: "Which of the following is true about explicit constructors?",
+    options: ["They can be called without an object", "They prevent implicit conversions", "They are declared with the 'explicit' keyword", "All of the above"],
+    answer: "All of the above"
   }
 ];
 
